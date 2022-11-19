@@ -1,4 +1,4 @@
 # Work-Day-Scheduler
-__Branches: The main branch contains React code. The gh-pages contains the GitHub Pages code__
+_Branches: The **main** branch contains React code. The **gh-pages** branch contains the GitHub Pages code_
 
 More Text
