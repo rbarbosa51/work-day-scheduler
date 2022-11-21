@@ -56,7 +56,7 @@ npx create-react-app <project-name>
 11) In the command line write: 
 git branch -M main	This will rename the master branch (default) to main (Github standard)
 12) Then write:
-git remote add origin https://github.com/<YourGithubUserName>/<RepoName>.git
+git remote add origin https://github.com/<YourGithubUserName>/<RepoName>.git  <Your Git Repo>
 13) Write:
 git add .
 git commit -m “Some commit text”
