@@ -15,6 +15,7 @@ function Hour(props) {
             return '';
         }
     }); 
+    //This is used for refreshes
     useEffect( () => {
         if (localStorage.getItem(props.hour) !== null){
             settaValue(localStorage.getItem(props.hour))
@@ -30,7 +31,7 @@ function Hour(props) {
                 settaValue(e.target.value);
             }}></textarea>
             <button className="btn saveBtn col-2 col-md-1" aria-label="save" onClick={ () => {
-                console.log(`Button ${props.hour} clicked and ${taValue}`);
+                console.log(`Button ${props.hour} clicked and value is: ${taValue}`);
                 localStorage.setItem(props.hour, taValue);
             }}>
                 <FontAwesomeIcon icon={faSave} />

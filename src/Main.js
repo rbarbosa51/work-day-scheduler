@@ -18,7 +18,7 @@ function Main() {
     return (
         <main className="container-lg px-5">
             {hourSpecs.map( (p) => {
-                return <Hour hour={p.hour} timeBlock={p.timeBlock} />
+                return <Hour key={p.hour} hour={p.hour} timeBlock={p.timeBlock} />
             })}
         </main>
     );
