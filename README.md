@@ -38,7 +38,7 @@ Then npm start -> Needs to be runned on react webserver in order to work (non - 
 Alternatevely you can run: npm run build  -> This will build a production ready code.
 
 ## ReactSpecific
-1) Github Create Repo   (Empty no readme. This is because….)
+1) Github Create Repo   (Empty no readme. The repo needs to be empty. Otherwise it will collide with the create-react-app git config)
 2) Github is going to give you a set of instructions copy them down
 3) Go to the file directory where you are going to set up then run: 
 npx create-react-app <project-name>
