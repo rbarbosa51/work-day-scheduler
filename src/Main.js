@@ -5,8 +5,14 @@ import Hour from "./Hour";
 function Main() {
     const hourSpecs = [
         {hour: '9AM', timeBlock: 'past'},
-        {hour: '10AM', timeBlock: 'present'},
-        {hour: '11AM', timeBlock: 'future'}
+        {hour: '10AM', timeBlock: 'past'},
+        {hour: '11AM', timeBlock: 'past'},
+        {hour: '12AM', timeBlock: 'present'},
+        {hour: '1PM', timeBlock: 'future'},
+        {hour: '2PM', timeBlock: 'future'},
+        {hour: '3PM', timeBlock: 'future'},
+        {hour: '4PM', timeBlock: 'future'},
+        {hour: '5PM', timeBlock: 'future'}
     ];
     return (
         <main className="container-lg px-5">
