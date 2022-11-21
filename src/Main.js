@@ -7,7 +7,7 @@ function Main() {
         {hour: '9AM', timeBlock: 'past'},
         {hour: '10AM', timeBlock: 'past'},
         {hour: '11AM', timeBlock: 'past'},
-        {hour: '12AM', timeBlock: 'present'},
+        {hour: '12PM', timeBlock: 'present'},
         {hour: '1PM', timeBlock: 'future'},
         {hour: '2PM', timeBlock: 'future'},
         {hour: '3PM', timeBlock: 'future'},
