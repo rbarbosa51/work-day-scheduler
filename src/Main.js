@@ -14,6 +14,7 @@ function Main() {
         {hour: '4PM', timeBlock: 'future'},
         {hour: '5PM', timeBlock: 'future'}
     ];
+    
     return (
         <main className="container-lg px-5">
             {hourSpecs.map( (p) => {
